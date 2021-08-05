@@ -17,7 +17,6 @@ class ProtoGenGo < Formula
     end
 
     bin.install File.join("#{gopath}", "/bin/protoc-gen-go") => "protoc-gen-go"
-    ln_s "bin/protoc-gen-go", "#{HOMEBREW_PREFIX}/bin/protoc-gen-go"
   end
 
 end

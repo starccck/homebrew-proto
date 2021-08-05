@@ -5,7 +5,7 @@ class Arcanist < Formula
   version "1.0.0"
 
   depends_on "git" => :build
-  depends_on "python3" => :build
+  depends_on "php"
 
   def install
     prefix.install Dir["./*"]
